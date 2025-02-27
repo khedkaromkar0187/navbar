@@ -57,134 +57,59 @@
 
         }
         .text-p{
-            font-size: 50px;
+            font-size: 40px;
+           display: flex;
         }
         .menu-icon{
             height: 50px;
             display: none;
-        }
-
-        /*mobile*/
-
-        @media (max-width: 600px){
-            .navbar{
-                height:30px;
-                       
-            }
-            .menu{
-            margin-left: 450px;
-
-        }
-        .search{
-            display: none;
-        }
-
-        .cultural-logo{
-            height: 35px;
-        }
-        .menu-item{
-            color: #fff;
-            text-decoration:none;
-            font-size: 20px;
-            margin: 0 30px;
-        }
-        .menu-item:hover{
-            text-decoration: underline;
-        }
-        
-
-        }
-        .text{
-            font-size: 15px;
-        }
-        .text-p{
-            font-size: 20px;
-        }
-        .menu-icon{
-             height: 10px;
+                        
         }
     
-        /*tablet*/
-        @media (min-width: 601px) and (max-width: 800px){
-            .navbar{
-                height: 40px;
-                       
-                    }
-                    .menu{
-                    margin-left: 450px;
-        
-                }
-                .search{
-                    display: none;
-                }
-        
-                .cultural-logo{
-                    height: 25px;
-                }
-                .menu-item{
-                    display: none;
-                }
-                .search-bar{
-                    padding: 5px 15px;
-                    border-radius: 30px;
-                    border: none;
-        
-                }
-                .text{
-                    font-size: 10px;
-                }
-                .text-p{
-                    font-size: 25px;
-                }
-                .menu-icon{
-                    height: 25px;
-                }
+        /*mobile*/
+        @media (max-width: 600px) {
             
-                }
-                /* laptop*/
-                @media (min-width: 801px) and (max-width:1024){
-                     .navbar{
-                       
-            }
-            .menu{
-            margin-left: 450px;
+        .menu{
+            display: none;
 
         }
         .search{
             display: none;
         }
-
-        .cultural-logo{
-            height: 35px;
-        }
-        .menu-item{
-            color: #fff;
-            text-decoration:none;
-            font-size: 20px;
-            margin: 0 30px;
-        }
-        .menu-item:hover{
-            text-decoration: underline;
-        }
-        
-
-        }
-        .text{
-            font-size: 15px;
-        }
         .text-p{
             font-size: 20px;
         }
         .menu-icon{
-             height: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: 60px;
+            height: 40px;
         }
+
+        }
+
+        /*Tablet*/
+        @media (min-width: 601px) and (max-width: 800px) {
+            .navbar{
                 
-                    
-        
+                height: 80px;
+            }
+            .search{
+            display: none;
+        }
+        .menu{
+            margin-left: 300px;
+        }
+        .text-p{
+            font-size: 35px;
+        }
+
+
+        }
 
 
 
-        
+       
     </style>
 </head>
 <body>
@@ -243,8 +168,9 @@
         </div>
         <div class="search">
             <input type="text" placeholder="search" class="search-bar"/>
-            <img src="list.png" class="menu-icon" alt="menu-icon"/>
+            
         </div>
+        <img src="menu.png" class="menu-icon" alt="menu icon"/>
     </div>
     
 </body>
